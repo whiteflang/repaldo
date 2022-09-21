@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Poppins&display=swap');
+body{
+    background-color: rgb(18, 1, 1);
+}
+
+
+.container {
+
+    
+    background-image: url("img/coliseo1.jpg");
+    background-color: rgb(29, 53, 150);
+    width:950px;
+    height: 1400px;
+    margin: 0px  auto;
+    background-size: 100% 100%;
+
+}
+
+.titlemagazine{
+    
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    height: 20%;
+    color:rgb(246, 182, 65);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.containergrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  height: 80%;
+  margin-right: 20px;
+  
+}
+
+.logo{
+    background-image:url("img/logonational.png");
+    background-size: 100%  90%;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    margin-left: 30px;
+
+   
+}
+
+
+
+
+.paragraphfirst{
+    margin-left: 120px;
+    font-size: large;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.paragraphsecond{
+
+    color: rgb(246, 223, 16);
+    margin-left: 120px;
+    font-size: large;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-end: 5;
+    grid-column-start: 3;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.paragraphthrid{
+
+    
+    grid-row-start: 4;
+    grid-column-start: 1;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.secondtitle{
+
+    font-weight:500;
+    color: rgb(246, 250, 33);
+    font-size: 250px;
+    display: flex;
+    justify-content: center;
+    grid-row-start: 5 ;
+    grid-column-end: 4;
+    grid-column-start: 1;
+    font-family: 'Playfair Display', serif;
+    
+   
+
+}
+
+.barcode{
+
+    background-image: url("img/codigobarras.png");
+
+    background-color: azure;
+    height: 140px;
+    width: 200px;
+    background-size: 100% 100%;
+    grid-row-start: 5 ;
+    grid-column-start: 4;
+    margin-left: 20px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+
+
+
+}
